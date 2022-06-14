@@ -33,7 +33,7 @@ int main()
 			need[i][j] = Max[i][j] - alloc[i][j];
 	do
 	{
-		printf("Max matrix:\t\nAllocation matrix:\n");
+		printf("Max matrix:\t\tAllocation matrix:\n");
 		for(i = 0; i < p; i++)
 		{
 			for( j = 0; j < r; j++)
