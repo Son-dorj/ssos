@@ -63,7 +63,7 @@ int main()
 		}
 		if(process != -1)
 		{
-			printf("Process %d runs to completion!", process + 1);
+			printf("Process %d runs to completion!\n", process + 1);
 			safeSequence[count] = process + 1;
 			count++;
 			for(j = 0; j < r; j++)
